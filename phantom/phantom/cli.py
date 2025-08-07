@@ -41,5 +41,8 @@ def init(cascade_on_fail):
             adapter.rollback()
         raise
 
+def main():
+    cli()
+
 if __name__ == '__main__':
     cli()
